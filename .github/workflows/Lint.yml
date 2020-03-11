@@ -12,5 +12,4 @@ jobs:
       - run: python -m pip install --upgrade pip
       - run: pip install ansible-lint ansible
       - run: ansible-lint --version
-      - run: ansible-playbook test.yml --syntax-check
       - run: ansible-lint test.yml
